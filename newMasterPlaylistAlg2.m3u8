@@ -1,0 +1,11 @@
+#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=550000,CODECS="avc1.66.30, mp4a.40.2",RESOLUTION=512x288
+../../samplestreams/variants_alg2/quality-0.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=807000,CODECS="avc1.66.30, mp4a.40.2",RESOLUTION=640x360
+../../samplestreams/variants_alg2/quality-1.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1115000,CODECS="avc1.66.30, mp4a.40.2",RESOLUTION=768x432
+../../samplestreams/variants_alg2/quality-2.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1543000,CODECS="avc1.77.30, mp4a.40.2",RESOLUTION=640x360
+../../samplestreams/variants_alg2/quality-3.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=63000,CODECS="mp4a.40.2"
+../../samplestreams/variants_alg2/quality-4.m3u8
