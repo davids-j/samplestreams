@@ -1,10 +1,28 @@
 #EXTM3U
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="bipbop_audio",NAME="BipBop Audio 2",DEFAULT=NO,AUTOSELECT=NO,LANGUAGE="eng",URI="../../samplestreams/variants_alg2/AUDIO/-1729745884.m3u8"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="bipbop_audio",NAME="BipBop Audio 1",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="eng"
-#EXT-X-STREAM-INF:BANDWIDTH=1056201,CODECS="mp4a.40.2, avc1.4d401e",RESOLUTION=640x360,AUDIO="bipbop_audio"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="Español (Forced)",DEFAULT=NO,AUTOSELECT=NO,FORCED=YES,LANGUAGE="es",URI="../../samplestreams/variants_alg2/SUBTITLES/-1142666930.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="English (Forced)",DEFAULT=NO,AUTOSELECT=NO,FORCED=YES,LANGUAGE="en",URI="../../samplestreams/variants_alg2/SUBTITLES/-846939366.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="日本語",DEFAULT=NO,AUTOSELECT=YES,FORCED=NO,LANGUAGE="ja",CHARACTERISTICS="public.accessibility.transcribes-spoken-dialog, public.accessibility.describes-music-and-sound",URI="../../samplestreams/variants_alg2/SUBTITLES/-806617195.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="日本語 (Forced)",DEFAULT=NO,AUTOSELECT=NO,FORCED=YES,LANGUAGE="ja",URI="../../samplestreams/variants_alg2/SUBTITLES/361985929.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="English",DEFAULT=YES,AUTOSELECT=YES,FORCED=NO,LANGUAGE="en",CHARACTERISTICS="public.accessibility.transcribes-spoken-dialog, public.accessibility.describes-music-and-sound",URI="../../samplestreams/variants_alg2/SUBTITLES/609138593.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="Français",DEFAULT=NO,AUTOSELECT=YES,FORCED=NO,LANGUAGE="fr",CHARACTERISTICS="public.accessibility.transcribes-spoken-dialog, public.accessibility.describes-music-and-sound",URI="../../samplestreams/variants_alg2/SUBTITLES/661748147.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="Français (Forced)",DEFAULT=NO,AUTOSELECT=NO,FORCED=YES,LANGUAGE="fr",URI="../../samplestreams/variants_alg2/SUBTITLES/815464369.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="Español",DEFAULT=NO,AUTOSELECT=YES,FORCED=NO,LANGUAGE="es",CHARACTERISTICS="public.accessibility.transcribes-spoken-dialog, public.accessibility.describes-music-and-sound",URI="../../samplestreams/variants_alg2/SUBTITLES/1452828690.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=263851,CODECS="mp4a.40.2, avc1.4d400d",RESOLUTION=416x234,AUDIO="bipbop_audio",SUBTITLES="subs"
 variants_alg2/quality-0.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1711620,CODECS="mp4a.40.2, avc1.4d401f",RESOLUTION=960x540,AUDIO="bipbop_audio"
-variants_alg2/quality-1.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2587410,CODECS="mp4a.40.2, avc1.4d401f",RESOLUTION=1280x720,AUDIO="bipbop_audio"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=28451,URI="variants_alg2/quality-1.m3u8",CODECS="avc1.4d400d"
+#EXT-X-STREAM-INF:BANDWIDTH=577610,CODECS="mp4a.40.2, avc1.4d401e",RESOLUTION=640x360,AUDIO="bipbop_audio",SUBTITLES="subs"
 variants_alg2/quality-2.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=4755240,CODECS="mp4a.40.2, avc1.4d401f",RESOLUTION=1920x1080,AUDIO="bipbop_audio"
-variants_alg2/quality-3.m3u8
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=181534,URI="variants_alg2/quality-3.m3u8",CODECS="avc1.4d401e"
+#EXT-X-STREAM-INF:BANDWIDTH=915905,CODECS="mp4a.40.2, avc1.4d401f",RESOLUTION=960x540,AUDIO="bipbop_audio",SUBTITLES="subs"
+variants_alg2/quality-4.m3u8
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=297056,URI="variants_alg2/quality-5.m3u8",CODECS="avc1.4d401f"
+#EXT-X-STREAM-INF:BANDWIDTH=1030138,CODECS="mp4a.40.2, avc1.4d401f",RESOLUTION=1280x720,AUDIO="bipbop_audio",SUBTITLES="subs"
+variants_alg2/quality-6.m3u8
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=339492,URI="variants_alg2/quality-7.m3u8",CODECS="avc1.4d401f"
+#EXT-X-STREAM-INF:BANDWIDTH=1924009,CODECS="mp4a.40.2, avc1.4d401f",RESOLUTION=1920x1080,AUDIO="bipbop_audio",SUBTITLES="subs"
+variants_alg2/quality-8.m3u8
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=669554,URI="variants_alg2/quality-9.m3u8",CODECS="avc1.4d401f"
+#EXT-X-STREAM-INF:BANDWIDTH=41457,CODECS="mp4a.40.2",AUDIO="bipbop_audio",SUBTITLES="subs"
+variants_alg2/quality-10.m3u8
